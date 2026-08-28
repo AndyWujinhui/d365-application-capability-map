@@ -1,0 +1,22 @@
+{
+  "commerce": "assets/icons/commerce.svg",
+  "contact-center": "assets/icons/contact-center.svg",
+  "customer-insights": "assets/icons/customer-insights.svg",
+  "customer-services": "assets/icons/customer-services.svg",
+  "dynamics365": "assets/icons/dynamics365.svg",
+  "field-service": "assets/icons/field-service.svg",
+  "finance": "assets/icons/finance.svg",
+  "finance-operations": "assets/icons/finance-operations.svg",
+  "human-resources": "assets/icons/human-resources.svg",
+  "intelligent-order-management": "assets/icons/intelligent-order-management.svg",
+  "project-operations": "assets/icons/project-operations.svg",
+  "sales": "assets/icons/sales.svg",
+  "supply-chain-management": "assets/icons/supply-chain-management.svg",
+  "copilot-studio": "assets/icons/copilot-studio.svg",
+  "dataverse": "assets/icons/dataverse.svg",
+  "power-apps": "assets/icons/power-apps.svg",
+  "power-automate": "assets/icons/power-automate.svg",
+  "power-bi": "assets/icons/power-bi.svg",
+  "power-pages": "assets/icons/power-pages.svg",
+  "power-platform": "assets/icons/power-platform.svg"
+}
