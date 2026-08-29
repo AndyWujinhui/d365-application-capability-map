@@ -2865,6 +2865,30 @@
     :fullscreen .topbar { opacity: 0.96; }
 
     /* ===== Responsive ===== */
+    @media (min-width: 901px) and (max-height: 800px) {
+      .app { grid-template-rows: 52px minmax(0, 1fr) 48px; }
+      .topbar { padding-inline: 16px; gap: 12px; }
+      .brand { min-width: 190px; }
+      .brand img { width: 28px; height: 28px; }
+      .brand div { font-size: 14px; }
+      .brand small { font-size: 10px; }
+      .tab { padding: 5px 10px; font-size: 11px; }
+      .icon-button,
+      .lang-button,
+      .theme-button { height: 32px; min-width: 32px; padding-inline: 8px; }
+      .slide { padding: 14px clamp(20px, 3vw, 36px); }
+      .section-head { margin-bottom: 10px; }
+      .eyebrow { margin-bottom: 4px; }
+      .slide:has(.split-system) { padding-top: 12px; padding-bottom: 14px; }
+      .slide:has(.split-system) .section-head { margin-bottom: 8px; }
+      .slide:has(.split-system) .system-block { padding: 10px; }
+      .slide:has(.split-system) .system-block header { margin-bottom: 5px; }
+      .slide:has(.split-system) .system-block .capability-grid { gap: 5px; }
+      .finance-visual,
+      .scm-visual { min-height: 120px; margin-top: 6px; }
+      .footer { padding-inline: 16px; }
+    }
+
     @media (max-width: 1050px) {
       .brand { min-width: auto; }
       .brand div { display: none; }
